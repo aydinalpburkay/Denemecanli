@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Otomobil Platformu</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!--! navbar start  -->
+  <div class="navbar">
+    <div class="navbar-wrapper">
+      <div class="logo-wrapper">
+        <h1 class="logo">OTOMOBİL PLATFORMU</h1>
+      </div>
+      <div class="menu-container">
+        <ul class="menu-list">
+          <li class="menu-list-item active">Ana Sayfa</li>
+          <li class="menu-list-item">Arabalar</li>
+          <li class="menu-list-item">Markalar</li>
+          <li class="menu-list-item">Galeri</li>
+          <li class="menu-list-item">İndirimli Araçlar</li>
+        </ul>
+      </div>
+      <div class="profile-container">
+        <img class="profile-picture" src="img/profile.jpg" alt="" />
+        <div class="profile-text-container">
+          <span class="profile-text">Profil</span>
+          <i class="bi bi-person"></i>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--! navbar end  -->
+
+  <!--! sidebar start  -->
+  <div class="sidebar">
+    <i class="bi bi-search"></i>
+    <i class="bi bi-house-door-fill"></i>
+    <i class="bi bi-bookmarks-fill"></i>
+    <i class="bi bi-gear-fill"></i>
+  </div>
+  <!--! sidebar end  -->
+
+  <!--! content start  -->
+  <div class="container">
+    <!-- featured content start -->
+    <div class="content-wrapper">
+      <div class="featured-content">
+        <img class="featured-title" src="img/alfa.png" alt="" />
+        <p class="featured-desc">
+          24 Haziran 1910. Anonima Lombarda Fabbrica Automobili (A.L.F.A.)’nin hikayesi bu tarihte Milano’da başladı.
+          Geliştirilen ilk araç Giuseppe Merosi tarafından tasarlanmıştı ve 24 HP güce sahipti. Beş yıl sonra Nicola
+          Romeo şirketi satın aldı ve şirketin adı Alfa Romeo olarak değiştirildi.
+        </p>
+        <div class="featured-buttons">
+          <button class="play-button">
+            <i class="bi bi-play-circle"></i>
+            Otomobilini Tasarla
+          </button>
+          <button class="info-button">
+            <i class="bi bi-info-circle"></i>
+            Daha Fazla Bilgi
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- featured content end -->
+
+    <!-- filter start -->
+    <div class="cars-list-filter">
+      <select>
+        <option>Sedan Arabalar</option>
+        <option>Hatchback Arabalar</option>
+        <option>Spor Arabalar</option>
+        <option>SUV & Arazi Arabalar</option>
+      </select>
+    </div>
+    <!-- filter end -->
+
+    <!-- cars list start -->
+    <div class="cars-list-container">
+      <h1 class="cars-list-title">En Çok Satan Spor Arabalar</h1>
+      <div class="cars-list-wrapper">
+        <ul class="cars-list">
+          <li class="cars-item">
+            <img class="cars-item-img" src="img/f1.jpg" alt="">
+            <div class="cars-item-info">
+              <span class="cars-item-title">Porsche Taycan</span>
+              <span class="cars-item-info1">Beyaz, Otomatik Vites, , 571hp, Elektrik  (70.000$)</span>
+              <a href="https://www.porsche.com.tr/modeller/taycan" target="_blank"> <span class="cars-item-title">Porsche Taycan</span></a>
+            </div>
+          </li>
+          <li class="cars-item">
+            <img class="cars-item-img" src="img/f2.jpg" alt="">
+            <div class="cars-item-info">
+              <span class="cars-item-title">Alfa Romeo Tonale</span>
+              <span class="cars-item-info1">Zümrüt Yeşil, Otomatik Vites, 1.6DTi, 130hp, Dizel  (45.000$)</span>
+              <a href="https://www.alfaromeo.com.tr/arac-modelleri/tonale" target="_blank"> <span class="cars-item-title">Alfa Romeo Tonale</span></a>
+            </div>
+          </li>
+          <li class="cars-item">
+            <img class="cars-item-img" src="img/f3.jpg" alt="">
+            <div class="cars-item-info">
+              <span class="cars-item-title">BWM 8</span>
+              <span class="cars-item-info1">Lacivert, Otomatik Vites, 3.0SDrive, 258hp, Benzin  (78.000$)</span>
+              <a href="https://www.bmw.com.tr/tr/all-models/8-serisi/coupe/2022/bmw-8-serisi-coupe-one-cikan-ozellikler.html" target="_blank"> <span class="cars-item-title">BWM 8</span></a>
+            </div>
+          </li>
+          <li class="cars-item">
+            <img class="cars-item-img" src="img/f4.jpg" alt="">
+            <div class="cars-item-info">
+              <span class="cars-item-title">Lamborghini Urus</span>
+              <span class="cars-item-info1">Sarı, Otomatik Vites, 4.0, 600hp, 4x4, Benzin  (245.000$)</span>
+              <a href="https://www.lamborghini.com/en-en/models/urus" target="_blank"> <span class="cars-item-title">Lamborghini Urus</span></a>
+            </div>
+          </li>
+          <li class="cars-item">
+            <img class="cars-item-img" src="img/f5.jpg" alt="">
+            <div class="cars-item-info">
+              <span class="cars-item-title">BMW Z4</span>
+              <span class="cars-item-info1">Kırmızı, Otomatik Vites, 3.0, 200hp, Benzin, Cabrio  (58.000$)</span>
+              <a href="https://www.bmw.com.tr/tr/all-models/z-series/roadster/2022/bmw-z4-teknik-veriler.html?gad_source=1&gclid=CjwKCAiA1-6sBhAoEiwArqlGPlFuY5OShc5nBl__3BiPzZjgD6V0G3VHsNGVBNOykGBFzhR0dVESUxoCeB4QAvD_BwE&adfcd=1704706092.IDIENppBYUKWIlX94Pycpg.MTE2Njg1NSwxNDI1NTI0#tab-0" target="_blank"> <span class="cars-item-title">BMW Z4</span></a>
+            </div>
+          </li>
+          <li class="cars-item">
+            <img class="cars-item-img" src="img/f6.jpg" alt="">
+            <div class="cars-item-info">
+              <span class="cars-item-title">Ferrari 812 Competizione</span>
+              <span class="cars-item-info1">Sarı, Otomatik Vites, 4.0 V8, 600hp, Benzin  (450.000$)</span>
+              <a href="https://www.ferrari.com/it-IT/auto/812-competizione" target="_blank"> <span class="cars-item-title">Ferrari 812 Competizione</span></a>
+            </div>
+          </li>
+          <li class="cars-item">
+            <img class="cars-item-img" src="img/f7.jpg" alt="">
+            <div class="cars-item-info">
+              <span class="cars-item-title">Audi e-tron GT</span>
+              <span class="cars-item-info1">Gümüş Gri, Otomatik Vites, 350hp, Elektrik  (94.000$)</span>
+              <a href="https://www.audi.com.tr/tr/web/tr/modeller/e-tron-gt/audi-e-tron-gt-2023.html" target="_blank"> <span class="cars-item-title">Audi e-tron GT</span></a>
+            </div>
+          </li>
+        </ul>
+        <i class="bi bi-chevron-right arrow"></i>
+      </div>
+    </div>
+    <div class="cars-list-container">
+      <h1 class="cars-list-title">SUV & Arazi</h1>
+      <div class="cars-list-wrapper">
+        <ul class="cars-list">
+          <li class="cars-item">
+            <img class="cars-item-img" src="img/a1.jpg" alt="" />
+            <div class="cars-item-info">
+              <span class="cars-item-title">Peugeot 3008</span>
+              <span class="cars-item-info1">Mavi, Otomatik Vites, 1.6 PureTech, 160hp, Dizel  (50.000$)</span>
+              <a href="https://www.peugeot.com.tr/peugeot-modelleri/3008.html" target="_blank"> <span class="cars-item-title">Peugeot 3008</span></a>
+            </div>
+          </li>
+          <li class="cars-item">
+            <img class="cars-item-img" src="img/a2.jpg" alt="" />
+            <div class="cars-item-info">
+              <span class="cars-item-title">Cupra Formentor</span>
+              <span class="cars-item-info1">Mat Gri, Otomatik Vites, 1.6TSI, 150hp, Benzin  (65.00$)</span>
+              <a href="https://www.cupraofficial.com.tr/modeller/modeller/formentor" target="_blank"> <span class="cars-item-title">Cupra Formentor</span></a>
+            </div>
+          </li>
+          <li class="cars-item">
+            <img class="cars-item-img" src="img/a3.jpg" alt="" />
+            <div class="cars-item-info">
+              <span class="cars-item-title">TOGG</span>
+              <span class="cars-item-info1">Kırmızı, Otomatik Vites, 4x2, 218hp, Elektrik  (45.000$)</span>
+              <a href="https://ces2023.togg.com.tr/tr/" target="_blank"> <span class="cars-item-title">TOGG</span></a>
+            </div>
+          </li>
+          <li class="cars-item">
+            <img class="cars-item-img" src="img/a4.jpg" alt="" />
+            <div class="cars-item-info">
+              <span class="cars-item-title">Ford Ranger</span>
+              <span class="cars-item-info1">Sarı, Manuel Vites, 2.0EcoBlue, 205hp, 4x4, Dizel  (53.000$)</span>
+              <a href="https://www.ford.com.tr/ticari-araclar/yeni-ford-ranger" target="_blank"> <span class="cars-item-title">Ford Ranger</span></a>
+            </div>
+          </li>
+          <li class="cars-item">
+            <img class="cars-item-img" src="img/a5.jpg" alt="" />
+            <div class="cars-item-info">
+              <span class="cars-item-title">Mercedes AMG X</span>
+              <span class="cars-item-info1">Gri, Otomatik Vites, 2.5DriveS, 350hp, Benzin  (114.000$)</span>
+              <a href="https://www.webtekno.com/mercedes-x-class-fiyati-ozellikleri-h90500.html" target="_blank"> <span class="cars-item-title">Mercedes AMG X</span></a>
+            </div>
+          </li>
+          <li class="cars-item">
+            <img class="cars-item-img" src="img/a6.jpg" alt="" />
+            <div class="cars-item-info">
+              <span class="cars-item-title">Audi Q3</span>
+              <span class="cars-item-info1">Lacivert, Otomatik Vites, 1.8TFSI, 180hp, Benzin  (84.000$)</span>
+              <a href="https://www.audi.com.tr/tr/web/tr/modeller/q3/q3-2023.html" target="_blank"> <span class="cars-item-title">Audi Q3</span></a>
+            </div>
+          </li>
+          <li class="cars-item">
+            <img class="cars-item-img" src="img/a7.jpg" alt="" />
+            <div class="cars-item-info">
+              <span class="cars-item-title">Chery Omoda 5</span>
+              <span class="cars-item-info1">Beyaz, Otomatik Vites, 1.6 T-GDI, 158hp, Benzin  (37.000$)</span>
+              <a href="https://cherytr.com/modeller/omoda5/omoda5" target="_blank"> <span class="cars-item-title">Chery Omoda 5</span></a>
+            </div>
+          </li>
+        </ul>
+        <i class="bi bi-chevron-right arrow"></i>
+      </div>
+    </div>
+    <div class="cars-list-container">
+      <h1 class="cars-list-title">Sedan & Hatchback</h1>
+      <div class="cars-list-wrapper">
+        <ul class="cars-list">
+          <li class="cars-item">
+            <img class="cars-item-img" src="img/c1.jpg" alt="" />
+            <div class="cars-item-info">
+              <span class="cars-item-title">Ds Automobiles Ds9</span>
+              <span class="cars-item-info1">Gümüş Gri, Otomatik Vites, 1.6 E-Tense, 250hp, Hybrid  (64.000$)</span>
+              <a href="https://www.dsautomobiles.com.tr/modeller/ds9.html" target="_blank"> <span class="cars-item-title">Ds Automobiles Ds9</span></a>
+            </div>
+          </li>
+          <li class="cars-item">
+            <img class="cars-item-img" src="img/c2.jpg" alt="" />
+            <div class="cars-item-info">
+              <span class="cars-item-title">Mercedes S63 AMG</span>
+              <span class="cars-item-info1">Lacivert, Otomatik Vites, 3.2 S AMG, 602hp, Benzin, 4WD  (210.000$)</span>
+              <a href="https://www.mercedes-benz.com.tr/passengercars/models/saloon/s-class/amg-new.html" target="_blank"> <span class="cars-item-title">Mercedes S63 AMG</span></a>
+            </div>
+          </li>
+          <li class="cars-item">
+            <img class="cars-item-img" src="img/c3.jpg" alt="" />
+            <div class="cars-item-info">
+              <span class="cars-item-title">Lexus Es300h</span>
+              <span class="cars-item-info1">Şampanya, Otomatik Vites, 218hp, Hybrid  (52.000$)</span>
+              <a href="https://www.lexus.com.tr/araclar/es" target="_blank"> <span class="cars-item-title">Lexus Es300h</span></a>
+            </div>
+          </li>
+          <li class="cars-item">
+            <img class="cars-item-img" src="img/c4.jpg" alt="" />
+            <div class="cars-item-info">
+              <span class="cars-item-title">Audi A7 Sportback</span>
+              <span class="cars-item-info1">Beyaz, Otomatik Vites, 4.0TDI, 286hp, Dizel, 4WD  (89.000$)</span>
+              <a href="https://www.audi.com.tr/tr/web/tr/modeller/a7/a7-sportback-2024.html" target="_blank"> <span class="cars-item-title">Audi A7 Sportback</span></a>
+            </div>
+          </li>
+          <li class="cars-item">
+            <img class="cars-item-img" src="img/c5.jpg" alt="" />
+            <div class="cars-item-info">
+              <span class="cars-item-title">Seat Leon</span>
+              <span class="cars-item-info1">Lacivert, Otomatik Vites, 1.5 eTSI, 150hp, Benzin  (33.000$)</span>
+              <a href="https://www.seat.com.tr/modeller/leon/leon" target="_blank"> <span class="cars-item-title">Seat Leon</span></a>
+            </div>
+          </li>
+          <li class="cars-item">
+            <img class="cars-item-img" src="img/c6.jpg" alt="" />
+            <div class="cars-item-info">
+              <span class="cars-item-title">Mini Cooper</span>
+              <span class="cars-item-info1">Siyah, Otomatik Vites, 1.5 Resolute Edition, 136hp, Benzin  (38.000$)</span>
+              <a href="https://www.mini.com.tr/tr_TR/home/range/mini-5-kapi.html" target="_blank"> <span class="cars-item-title">Mini Cooper</span></a>
+            </div>
+          </li>
+          <li class="cars-item">
+            <img class="cars-item-img" src="img/c7.jpg" alt="" />
+            <div class="cars-item-info">
+              <span class="cars-item-title">Maserati Ghibli</span>
+              <span class="cars-item-info1">Lacivert, Otomatik Vites, 3.0Levante, 275hp, Dizel (97.000$) </span>
+              <a href="https://www.maserati.com/tr/tr/models/ghibli" target="_blank"> <span class="cars-item-title">Maserati Ghibli</span></a>
+            </div>
+          </li>
+        </ul>
+        <i class="bi bi-chevron-right arrow"></i>
+      </div>
+    </div>
+    <div class="cars-list-container">
+      <h1 class="cars-list-title">Elektrikli Arabalar</h1>
+      <div class="cars-list-wrapper">
+        <ul class="cars-list">
+          <li class="cars-item">
+            <img class="cars-item-img" src="img/f1.jpg" alt="">
+            <div class="cars-item-info">
+              <span class="cars-item-title">Porsche Taycan</span>
+              <span class="cars-item-info1">Beyaz, Otomatik Vites, , 571hp, 365Km Menzil (70.000$)</span>
+              <a href="https://www.porsche.com.tr/modeller/taycan" target="_blank"> <span class="cars-item-title">Porsche Taycan</span></a>
+            </div>
+          </li>
+          <li class="cars-item">
+            <img class="cars-item-img" src="img/e1.jpg" alt="">
+            <div class="cars-item-info">
+              <span class="cars-item-title">Tesla Model S</span>
+              <span class="cars-item-info1">Lacivert, Otomatik Vites, 760hp, 572km Menzil (75.000$)</span>
+              <a href="https://www.tesla.com/tr_tr/models" target="_blank"> <span class="cars-item-title">Tesla Model S</span></a>
+            </div>
+          </li>
+          <li class="cars-item">
+            <img class="cars-item-img" src="img/e2.jpg" alt="">
+            <div class="cars-item-info">
+              <span class="cars-item-title">Tesla Model Y</span>
+              <span class="cars-item-info1">Beyaz, Otomatik Vites, 372hp, 562km Menzil (63.000$)</span>
+              <a href="https://www.tesla.com/tr_tr/modely" target="_blank"> <span class="cars-item-title">Tesla Model Y</span></a>
+            </div>
+          </li>
+          <li class="cars-item">
+            <img class="cars-item-img" src="img/e3.jpg" alt="">
+            <div class="cars-item-info">
+              <span class="cars-item-title">Skywell Et5</span>
+              <span class="cars-item-info1">Mavi, Otomatik Vites, 204hp,489Km Menzil (55.000$)</span>
+              <a href="https://skywell.com.tr/?utm_term=skywell%20et5&utm_campaign=&utm_source=adwords&utm_medium=ppc&hsa_acc=5479572664&hsa_cam=18404703513&hsa_grp=150405354197&hsa_ad=662898965888&hsa_src=g&hsa_tgt=kwd-1536699371928&hsa_kw=skywell%20et5&hsa_mt=p&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=CjwKCAiA1-6sBhAoEiwArqlGPvkgcq2tHqSV7S4HWJPtg5pQiDBQxiWFcbgORm1umxNM1uBGmRodhhoCcxwQAvD_BwE" target="_blank"> <span class="cars-item-title">Skywell Et5</span></a>
+            </div>
+          </li>
+          <li class="cars-item">
+            <img class="cars-item-img" src="img/e4.jpg" alt="">
+            <div class="cars-item-info">
+              <span class="cars-item-title">Renault Megane E-Tech</span>
+              <span class="cars-item-info1">Gri, Otomatik Vites, 218hp, 431Km Menzil (43.000$)</span>
+              <a href="https://www.renault.com.tr/elektrikli-araclar/megane-e-tech-elektrikli.html" target="_blank"> <span class="cars-item-title">Renault Megane E-Tech</span></a>
+            </div>
+          </li>
+          <li class="cars-item">
+            <img class="cars-item-img" src="img/e5.jpg" alt="">
+            <div class="cars-item-info">
+              <span class="cars-item-title">Mercedes-Benz EQA</span>
+              <span class="cars-item-info1">Beyaz, Otomatik Vites, 408hp, 403Km Menzil (80.000$)</span>
+              <a href="https://www.mercedes-benz.com.tr/passengercars/models/suv/eqa/overview.html" target="_blank"> <span class="cars-item-title">Mercedes-Benz EQA</span></a>
+            </div>
+          </li>
+          <li class="cars-item">
+            <img class="cars-item-img" src="img/f7.jpg" alt="">
+            <div class="cars-item-info">
+              <span class="cars-item-title">Audi e-tron GT</span>
+              <span class="cars-item-info1">Gümüş Gri, Otomatik Vites, 476hp, 487Km Menzil (94.000$)</span>
+              <a href="https://www.audi.com.tr/tr/web/tr/modeller/e-tron-gt/audi-e-tron-gt-2023.html" target="_blank"> <span class="cars-item-title">Audi e-tron GT</span></a>
+            </div>
+          </li>
+        </ul>
+        <i class="bi bi-chevron-right arrow"></i>
+      </div>
+    </div>
+    <!-- cars list end -->
+  </div>
+  <!--! content start  -->
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
